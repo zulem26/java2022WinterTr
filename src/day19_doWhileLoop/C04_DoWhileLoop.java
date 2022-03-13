@@ -34,5 +34,6 @@ public class C04_DoWhileLoop {
 
         }while (sayi != 0);
         System.out.println("girilen pozitif sayilarin toplami : " + toplam);
+        //yeni proje oldu
     }
 }
