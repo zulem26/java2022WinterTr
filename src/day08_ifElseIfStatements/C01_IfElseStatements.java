@@ -2,7 +2,7 @@ package day08_ifElseIfStatements;
 
 import java.util.Scanner;
 
-public class IfElseStatements {
+public class C01_IfElseStatements {
     public static void main(String[] args) {
 
         // girilen bir karakterin harf olup olmadigini bulalim

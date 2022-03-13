@@ -2,7 +2,7 @@ package day07_ifElseStatements;
 
 import java.util.Scanner;
 
-public class C07_Emeklilik {
+public class C06_Emeklilik {
 
     public static void main(String[] args) {
 

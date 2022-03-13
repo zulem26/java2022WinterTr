@@ -9,13 +9,17 @@ public class C01_PreIncrementPostIncrement {
         System.out.println(sayi);//11
 
         sayi++;
-        System.out.println(sayi); //12
+        System.out.println("pre-incrementten once" + sayi); //12
         //eger 11. ve 12. satirda yaptigim 2 islemi tek satirda yaparsam
         //java iki islemden once hangisini yapacagini bilmek ister
         //once artirir sonra yazdirirsak java yeni degeri yazdirir
         //ama once yazdirir sonra artirirsak bu durumda eski deger yazdirilir.
 
-        System.out.println(++sayi); //13  once artirir sonra yazdirir
+        System.out.println( "pre-increment satirinda" + ++sayi); //13  once artirir sonra yazdirir
+        System.out.println("pre-incrementden sonra" +sayi);  //13
+
+        System.out.println("post-increment satirinda " + sayi++); //13 once yazdir sonra artir
+        System.out.println("post-increment satirindan sonra " + sayi); //14
 
 
     }
