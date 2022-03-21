@@ -14,6 +14,7 @@ public class C04_ForLoop {
         int baslangic = 10;
         int bitis = 30;
 
+
         for (int i = baslangic; i <= bitis ; i++) {
             if (i<bitis){
                 System.out.print(i + ", ");

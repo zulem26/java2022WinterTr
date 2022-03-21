@@ -5,7 +5,7 @@ public class C01_trim {
 
         String str = "   Siz ne derseniz deyin, Java bildigini okur.   ";
 
-        str.trim();
+        str = str.trim();
         System.out.println(str);
         System.out.println(str.length());
 

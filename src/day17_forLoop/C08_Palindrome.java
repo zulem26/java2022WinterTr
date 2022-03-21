@@ -6,24 +6,24 @@ public class C08_Palindrome {
         // Kullanicinin girdigi String’in palindrome olup olmadigini kontrol eden
         // bir method olusturun.
 
-        String input = "Mada";
+        String input = "Madam";
         palindromeKontrolEt(input);
 
 
     }
 
     private static void palindromeKontrolEt(String input) {
-
-        String terstenInput = "";
-        for (int i = input.length()-1 ; i >= 0 ; i--) {
+        String terstenInput="";
+        for (int i = input.length()-1; i >=0 ; i--) {
             terstenInput += input.charAt(i);
         }
-        System.out.println("girdigniz kelimenin tersten yazilisi : " + terstenInput);
 
+        System.out.println("Girdiginiz kelimenin tersten yazilisi : " + terstenInput);
         if (input.equalsIgnoreCase(terstenInput)){
-            System.out.println("girdiginiz kelime palindrome");
-        } else {
-            System.out.println("girdiginiz kelime palindrome degildir");
+            System.out.println("Girdiginiz kelime palindrome");
+        } else{
+            System.out.println("girdiginiz kelime palindrome degil");
         }
+
     }
 }

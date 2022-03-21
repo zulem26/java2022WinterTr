@@ -9,6 +9,7 @@ public class C06_ForLoop {
         char ilkHarf = 'c';
         char sonHarf = 's';
 
+
         for (char i = ilkHarf; i <=sonHarf ; i++) {
             System.out.print(i + " ");
         }
@@ -17,6 +18,7 @@ public class C06_ForLoop {
         double bitis = 20;
         double artis = 0.2;
         //baslangic ve bitis sayilari arasindaki artis miktari ile olusacak tum sayilari yazdirin
+
 
         for (double i = baslangic; i <=bitis ; i+=artis) {
             System.out.print(i + " ");

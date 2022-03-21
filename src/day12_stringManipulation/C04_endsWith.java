@@ -10,7 +10,7 @@ public class C04_endsWith {
         //@gmail.com ile bitmiyorsa "Lutfen yazimi kontrol edin" yazdirin
 
         String email = "zulkifergin@gmail.com";
-        String arananMetin = "gmail.com";
+        String arananMetin = "@gmail.com";
 
         if (!email.contains(arananMetin)){
             System.out.println("lutfen gmail adresi giriniz");
