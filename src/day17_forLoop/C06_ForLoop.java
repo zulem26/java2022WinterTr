@@ -14,7 +14,7 @@ public class C06_ForLoop {
             System.out.print(i + " ");
         }
 
-        double baslangic =10;
+        /*double baslangic =10;
         double bitis = 20;
         double artis = 0.2;
         //baslangic ve bitis sayilari arasindaki artis miktari ile olusacak tum sayilari yazdirin
@@ -23,6 +23,8 @@ public class C06_ForLoop {
         for (double i = baslangic; i <=bitis ; i+=artis) {
             System.out.print(i + " ");
         }
+
+         */
 
     }
 }

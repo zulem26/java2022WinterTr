@@ -8,8 +8,8 @@ public class C03_contains {
         //@gmail.com ile bitiyorsa "email adresiniz kaydedildi"
         //@gmail.com ile bitmiyorsa "Lutfen yazimi kontrol edin" yazdirin
 
-        String email = "zulkifergin@hotmail.com";
-        String arananMetin = "gmail.com";
+        String email = "zulkifergin@gmail.com";
+        String arananMetin = "@gmail.com";
 
         if (!email.contains(arananMetin)){
             System.out.println("lutfen gmail adresi giriniz");

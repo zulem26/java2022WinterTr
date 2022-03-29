@@ -21,8 +21,7 @@ public class C01_WhileLoop {
             bolen++;
         }
         System.out.println("");
-        System.out.println(input + " sayini bolen " + sayac + "adet sayi vardir");
-
+        System.out.println(input + " sayisini bolen " + sayac + "adet sayi vardir");
 
     }
 }

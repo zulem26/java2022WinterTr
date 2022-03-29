@@ -11,5 +11,8 @@ public class C08_MDArrays {
             carpim *= arr[i][arr[i].length-1];
         }
         System.out.println("son elementlerin carpimi : " + carpim);
+
+
+
     }
 }
