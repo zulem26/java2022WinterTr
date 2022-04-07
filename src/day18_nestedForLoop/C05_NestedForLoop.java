@@ -14,7 +14,7 @@ public class C05_NestedForLoop {
        */
 
         char input = 'F';
-
+        
         for (char i = 'A'; i <=input ; i++) {
             for (char j = 'A'; j <=i ; j++) {
                 System.out.print(j + " ");
