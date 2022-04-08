@@ -70,7 +70,7 @@ public class Ustabasi extends Isci{
         adem in tum personel ile birlikte sahip oldugu ortak ozellikleri vurgulamak istiyorum
 
         Bu kullanim seklinde olusturulan obje data turu olarak secilen class ve onun parent
-        class larindaki variable lari kullanabilir
+        class larindaki variable lari kullanabilir.
          */
     }
 }
