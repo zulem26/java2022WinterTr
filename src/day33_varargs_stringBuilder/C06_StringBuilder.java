@@ -22,5 +22,14 @@ public class C06_StringBuilder {
         System.out.println(sb1.subSequence(3,5)); //at
 
         System.out.println(sb1);   //  Hayatta Prize dikkat edin.
+
+        StringBuilder sbw = new StringBuilder("Hayat guzel");
+        System.out.println(sbw.insert(11, " Java ile"));
+        String str1 = "Cok guzel";
+
+        System.out.println(sbw.insert(6, str1,0,4));
+        System.out.println(sbw.reverse());
+        System.out.println(sbw.reverse());
+        System.out.println(sbw.substring(6,9));
     }
 }

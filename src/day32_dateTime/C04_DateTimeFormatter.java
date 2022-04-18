@@ -9,6 +9,7 @@ public class C04_DateTimeFormatter {
         LocalDateTime tarihSaat = LocalDateTime.now();
         System.out.println(tarihSaat);  //2022-04-02T16:18:12.866083
 
+
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MMMM/YYYY");
         System.out.println(formatter.format(tarihSaat)); // 02/April/2022
         DateTimeFormatter formatterSaat=DateTimeFormatter.ofPattern("h:mm:ss  a");

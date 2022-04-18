@@ -20,10 +20,7 @@ public class C02_LocalTime {
         System.out.println("islem " + (nano2-nano1) + " nanosaniyede bitti");
         // ileri veya geriye gidebiliriz
         System.out.println(tm.plusMinutes(1000)); // 13:59:49.227878
-        // istersek zone id kullanarak istedigimiz bolgenin saati icin de obje polarizability
-
-
-
+        // istersek zone id kullanarak istedigimiz bolgenin saati icin de obje olusturabiliriz
 
     }
 }
